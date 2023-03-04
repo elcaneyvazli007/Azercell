@@ -7,6 +7,7 @@ import { BsCoin } from "react-icons/bs";
 import { AiOutlineWifi } from "react-icons/ai";
 import { MdOutlineBusinessCenter } from "react-icons/md";
 import { GiManualJuicer, GiSettingsKnobs } from "react-icons/gi";
+import { BrowserRouter, Routes, Link, Route } from "react-router-dom";
 
 function menu() {
   const menus = [
@@ -14,50 +15,62 @@ function menu() {
       id: 1,
       name: "Əsas",
       icon: "AiOutlineHome",
+      link: "/",
     },
     {
       id: 2,
       name: "Tariflər",
       icon: "AiOutlineStar",
+      link: "/tarifler",
     },
     {
       id: 3,
       name: "Xidmətlər",
       icon: "AiOutlineSetting",
+      link: "/xidmetler",
     },
     {
       id: 4,
       name: "Tətbiqlər",
       icon: "BsPhone",
+      link: "/tetbiqler",
     },
     {
       id: 5,
       name: "Paylaş Qazan",
       icon: "BsCoin",
+      link: "/paylas",
     },
     {
       id: 6,
       name: "İnternet",
       icon: "AiOutlineWifi",
+      link: "/internet",
     },
     {
       id: 7,
       name: "Maliyyə",
       icon: "MdOutlineBusinessCenter",
+      link: "/internet",
     },
     {
       id: 8,
       name: "Ayarlar",
       icon: "GiSettingsKnobs",
+      link: "/ayarlar",
     },
   ];
 
   return (
-    <div className="bg-primary2 w-[17%] mx-auto rounded-[1.5rem]">
+    <div className="bg-primary2 w-[40%] mx-auto rounded-[1.5rem]">
       {menus.map((item) => (
-        <div className="flex flex-row items-center rounded-[.9rem] gap-[1rem] hover:bg-white p-[2rem] hover:text-primary2" key={item.id}>
+        <Link
+          to={item.link}
+          className="flex flex-row items-center rounded-[.9rem] gap-[1rem] hover:bg-white p-[2rem] hover:text-primary2"
+          key={item.id}
+        >
           <h1 className=" text-[1.8rem]">{item.name}</h1>
-        </div>
+        </Link>
       ))}
     </div>
   );
