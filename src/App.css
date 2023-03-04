@@ -8,7 +8,6 @@ html{
 
 body{
     background-image: url('../public/img/bg.png');
-    background-repeat: no-repeat;
     background-size: cover;
     object-fit: contain;
     font-family: 'Nunito', sans-serif;
