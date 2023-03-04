@@ -2,6 +2,14 @@ import "./App.css";
 import Navbar from "./component/navbar.jsx";
 import Menu from "./component/menu.jsx";
 import { Routes, Link, Route } from "react-router-dom";
+import Ayarlar from './pages/ayarlar.jsx';
+import Esas from './pages/esas.jsx';
+import Internet from './pages/internet.jsx';
+import Maliyye from './pages/maliyye.jsx';
+import Paylas from './pages/paylas.jsx';
+import Tarifler from './pages/tarifler.jsx';
+import Tetbiqler from './pages/tetbiqler.jsx';
+import Xidmetler from './pages/xidmetler.jsx';
 
 function App() {
   return (
@@ -10,12 +18,14 @@ function App() {
       <div className="flex flex-row items-start gap-[3rem]">
         <Menu />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/blogtext/:blogsId" element={<Blogtext />} />
+          <Route path="/" element={<Esas />} />
+          <Route path="/ayarlar" element={<Ayarlar />} />
+          <Route path="/internet" element={<Internet />} />
+          <Route path="/maliyyer" element={<Maliyye />} />
+          <Route path="/paylas" element={<Paylas />} />
+          <Route path="/tarifler" element={<Tarifler />} />
+          <Route path="/tetbiqler" element={<Tetbiqler />} />
+          <Route path="/xidmetler" element={<Xidmetler />} />
         </Routes>
       </div>
       
