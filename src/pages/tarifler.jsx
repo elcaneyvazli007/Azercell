@@ -23,7 +23,7 @@ const tarifler = () => {
       <Swiper
         slidesPerView={2}
         centeredSlides={true}
-        spaceBetween={30}
+        spaceBetween={40}
         grabCursor={true}
         pagination={{
           clickable: true,
@@ -34,11 +34,9 @@ const tarifler = () => {
         <SwiperSlide className="px-[3rem] py-[1rem] flex flex-col bg-primary w-[40%] h-[40rem] rounded-[1.5rem] gap-[2rem]">
           <h1 className="text-[2.5rem] text-white font-extrabold">IsteSen</h1>
           <div className="flex flex-row justify-between items-center">
-            <MdOutline4GMobiledata className="text-[2rem] text-white" />
             <p className="text-[1.4rem] text-white font-semibold">2 GB</p>
           </div>
           <div className="flex flex-row justify-between items-center">
-            <BsTelephone className="text-[1.6rem] text-white" />
             <p className="text-[1.4rem] text-white font-semibold">
               Ölkədaxili 350 dəq
             </p>
@@ -60,11 +58,9 @@ const tarifler = () => {
         <SwiperSlide className="px-[3rem] py-[1rem] flex flex-col bg-primary w-[40%] h-[40rem] rounded-[1.5rem] gap-[2rem]">
           <h1 className="text-[2.5rem] text-white font-extrabold">IsteSen</h1>
           <div className="flex flex-row justify-between items-center">
-            <MdOutline4GMobiledata className="text-[2rem] text-white" />
             <p className="text-[1.4rem] text-white font-semibold">2 GB</p>
           </div>
           <div className="flex flex-row justify-between items-center">
-            <BsTelephone className="text-[1.6rem] text-white" />
             <p className="text-[1.4rem] text-white font-semibold">
               Ölkədaxili 350 dəq
             </p>
@@ -86,11 +82,9 @@ const tarifler = () => {
         <SwiperSlide className="px-[3rem] py-[1rem] flex flex-col bg-primary w-[40%] h-[40rem] rounded-[1.5rem] gap-[2rem]">
           <h1 className="text-[2.5rem] text-white font-extrabold">IsteSen</h1>
           <div className="flex flex-row justify-between items-center">
-            <MdOutline4GMobiledata className="text-[2rem] text-white" />
             <p className="text-[1.4rem] text-white font-semibold">2 GB</p>
           </div>
           <div className="flex flex-row justify-between items-center">
-            <BsTelephone className="text-[1.6rem] text-white" />
             <p className="text-[1.4rem] text-white font-semibold">
               Ölkədaxili 350 dəq
             </p>
@@ -112,11 +106,9 @@ const tarifler = () => {
         <SwiperSlide className="px-[3rem] py-[1rem] flex flex-col bg-primary w-[40%] h-[40rem] rounded-[1.5rem] gap-[2rem]">
           <h1 className="text-[2.5rem] text-white font-extrabold">IsteSen</h1>
           <div className="flex flex-row justify-between items-center">
-            <MdOutline4GMobiledata className="text-[2rem] text-white" />
             <p className="text-[1.4rem] text-white font-semibold">2 GB</p>
           </div>
           <div className="flex flex-row justify-between items-center">
-            <BsTelephone className="text-[1.6rem] text-white" />
             <p className="text-[1.4rem] text-white font-semibold">
               Ölkədaxili 350 dəq
             </p>
@@ -138,11 +130,9 @@ const tarifler = () => {
         <SwiperSlide className="px-[3rem] py-[1rem] flex flex-col bg-primary w-[40%] h-[40rem] rounded-[1.5rem] gap-[2rem]">
           <h1 className="text-[2.5rem] text-white font-extrabold">IsteSen</h1>
           <div className="flex flex-row justify-between items-center">
-            <MdOutline4GMobiledata className="text-[2rem] text-white" />
             <p className="text-[1.4rem] text-white font-semibold">2 GB</p>
           </div>
           <div className="flex flex-row justify-between items-center">
-            <BsTelephone className="text-[1.6rem] text-white" />
             <p className="text-[1.4rem] text-white font-semibold">
               Ölkədaxili 350 dəq
             </p>
@@ -164,11 +154,9 @@ const tarifler = () => {
         <SwiperSlide className="px-[3rem] py-[1rem] flex flex-col bg-primary w-[40%] h-[40rem] rounded-[1.5rem] gap-[2rem]">
           <h1 className="text-[2.5rem] text-white font-extrabold">IsteSen</h1>
           <div className="flex flex-row justify-between items-center">
-            <MdOutline4GMobiledata className="text-[2rem] text-white" />
             <p className="text-[1.4rem] text-white font-semibold">2 GB</p>
           </div>
           <div className="flex flex-row justify-between items-center">
-            <BsTelephone className="text-[1.6rem] text-white" />
             <p className="text-[1.4rem] text-white font-semibold">
               Ölkədaxili 350 dəq
             </p>

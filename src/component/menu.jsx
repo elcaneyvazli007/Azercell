@@ -66,7 +66,7 @@ function menu() {
       {menus.map((item) => (
         <Link
           to={item.link}
-          className="flex flex-row items-center rounded-[.9rem] gap-[1rem] hover:bg-white p-[2rem] hover:text-primary2"
+          className="flex flex-row items-center rounded-[.9rem] gap-[1rem] text-white hover:bg-white p-[2rem] hover:text-primary2"
           key={item.id}
         >
           <h1 className=" text-[1.8rem]">{item.name}</h1>

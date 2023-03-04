@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="flex flex-row items-start justify-around gap-[3rem] w-[60%] mx-auto pt-[3rem]">
-        <Menu/>
+        <Menu />
           <Routes>
             <Route path="/" element={<Esas />} />
             <Route path="/ayarlar" element={<Ayarlar />} />
