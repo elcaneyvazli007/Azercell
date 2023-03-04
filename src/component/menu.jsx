@@ -1,63 +1,64 @@
 import React from "react";
 import { AiOutlineHome } from "react-icons/ai";
-import {AiOutlineStar} from "react-icons/ai";
-import {AiOutlineSetting} from "react-icons/ai";
+import { AiOutlineStar } from "react-icons/ai";
+import { AiOutlineSetting } from "react-icons/ai";
+import { BsPhone } from "react-icons/bs";
+import { BsCoin } from "react-icons/bs";
+import { AiOutlineWifi } from "react-icons/ai";
+import { MdOutlineBusinessCenter } from "react-icons/md";
+import { GiManualJuicer, GiSettingsKnobs } from "react-icons/gi";
 
 function menu() {
-  const menu = [
+  const menus = [
     {
       id: 1,
       name: "Əsas",
-      icon: 'AiOutlineHome',
+      icon: "AiOutlineHome",
     },
     {
       id: 2,
       name: "Tariflər",
-      icon: 'AiOutlineStar',
+      icon: "AiOutlineStar",
     },
     {
       id: 3,
       name: "Xidmətlər",
-      icon: 'AiOutlineSetting',
+      icon: "AiOutlineSetting",
     },
     {
       id: 4,
-      name: "Əsas",
-      icon: 'AiOutlineHome',
+      name: "Tətbiqlər",
+      icon: "BsPhone",
     },
     {
       id: 5,
-      name: "Əsas",
-      icon: 'AiOutlineHome',
+      name: "Paylaş Qazan",
+      icon: "BsCoin",
     },
     {
       id: 6,
-      name: "Əsas",
-      icon: 'AiOutlineHome',
+      name: "İnternet",
+      icon: "AiOutlineWifi",
     },
     {
       id: 7,
-      name: "Əsas",
-      icon: 'AiOutlineHome',
+      name: "Maliyyə",
+      icon: "MdOutlineBusinessCenter",
     },
     {
       id: 8,
-      name: "Əsas",
-      icon: 'AiOutlineHome',
-    },
-    {
-      id: 9,
-      name: "Əsas",
-      icon: 'AiOutlineHome',
+      name: "Ayarlar",
+      icon: "GiSettingsKnobs",
     },
   ];
 
   return (
     <div className="bg-primary2 w-[17%] mx-auto rounded-[1.5rem]">
-      <div className="flex flex-row items-center rounded-[1.5rem] gap-[1rem] hover:bg-white p-[2rem] hover:text-primary2">
-        <AiOutlineHome className="text-[2rem] text-white " />
-        <h1 className=" text-[1.8rem]">Əsas</h1>
-      </div>
+      {menus.map((item) => (
+        <div className="flex flex-row items-center rounded-[.9rem] gap-[1rem] hover:bg-white p-[2rem] hover:text-primary2" key={item.id}>
+          <h1 className=" text-[1.8rem]">{item.name}</h1>
+        </div>
+      ))}
     </div>
   );
 }
