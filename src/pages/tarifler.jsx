@@ -8,12 +8,14 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "./tarif.css";
 import "swiper/css/effect-cards";
+import "swiper/css/navigation";
 import { EffectCards } from "swiper";
 import { Pagination } from "swiper";
+import { Navigation } from "swiper";
 
 const tarifler = () => {
   return (
-    <div className="bg-white px-[3rem] py-[1rem] w-[70%] h-full rounded-[1.5rem] flex flex-col gap-[3rem]">
+    <div className="bg-white px-[3rem] py-[1rem] w-[70%] h-full rounded-[1.5rem] flex flex-col gap-[3rem] pb-[7rem]">
       <h1 className="text-[2.5rem] text-primary font-extrabold">Tarifler</h1>
       <div className="flex flex-row items-center justify-between">
         <p className="text-[1.8rem] font-semibold">Cari Tarif</p>
@@ -28,7 +30,8 @@ const tarifler = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        navigation={true}
+        modules={[Navigation, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide className="px-[3rem] py-[1rem] flex flex-col bg-primary w-[40%] h-[40rem] rounded-[1.5rem] gap-[2rem]">
