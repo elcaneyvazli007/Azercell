@@ -30,6 +30,7 @@ const tarifler = () => {
         pagination={{
           clickable: true,
         }}
+        loop = {true}
         navigation={true}
         modules={[Navigation, Pagination]}
         className="mySwiper"
