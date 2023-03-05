@@ -12,13 +12,13 @@ const time = () => {
           id=""
           cols="30"
           rows="10"
-          className="w-[100%] rounded-[1.5rem] outline-none text-[2rem]"
+          className="w-[100%] rounded-[1.5rem] outline-none text-[2rem] px-[3rem] py-[2rem]"
         ></textarea>
       </div>
       <div className="flex flex-row gap-[5rem]">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
+        <button className="px-[5rem] py-[.7rem] text-[1.8rem] text-primary hover:text-white border-2 border-primary hover:bg-primary rounded-[1.5rem]">Kontur</button>
+        <button className="px-[5rem] py-[.7rem] text-[1.8rem] text-primary hover:text-white border-2 border-primary hover:bg-primary rounded-[1.5rem]">Internet</button>
+        <button className="px-[5rem] py-[.7rem] text-[1.8rem] text-primary hover:text-white border-2 border-primary hover:bg-primary rounded-[1.5rem]">Deqiqe</button>
       </div>
     </div>
   );
