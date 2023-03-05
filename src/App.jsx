@@ -10,6 +10,7 @@ import Paylas from "./pages/paylas.jsx";
 import Tarifler from "./pages/tarifler.jsx";
 import Tetbiqler from "./pages/tetbiqler.jsx";
 import Xidmetler from "./pages/xidmetler.jsx";
+import Nealiyyetler from "./pages/nealiyyetler.jsx";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/tarifler" element={<Tarifler />} />
             <Route path="/tetbiqler" element={<Tetbiqler />} />
             <Route path="/xidmetler" element={<Xidmetler />} />
+            <Route path="/nealiyyetler" element={<Nealiyyetler />} />
           </Routes>
       </div>
     </div>
